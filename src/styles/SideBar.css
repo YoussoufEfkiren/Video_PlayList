@@ -1,0 +1,79 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 60px; /* Ajuster si nécessaire */
+    left: 0;
+    height: calc(100vh - 60px);
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar-item .sidebar-icon {
+    font-size: 24px;
+  }
+  /* SideBar.css */
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+}
+
+.playlist-dropdown {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.playlist-item {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-item:hover {
+  background-color: #90c3f7;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg);
+}

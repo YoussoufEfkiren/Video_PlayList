@@ -1,0 +1,129 @@
+/* Theme Toggle Button */
+.btn-dark {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #555;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #181818;
+  color: #fff;
+}
+
+/* Header */
+body.dark-mode .header {
+  background-color: #282828;
+  color: #fff;
+}
+
+/* Sidebar */
+body.dark-mode .sidebar {
+  background-color: #282828;
+  color: #fff;
+}
+
+body.dark-mode .sidebar-item {
+  color: #fff;
+}
+
+body.dark-mode .sidebar-item:hover {
+  background-color: #444;
+}
+
+/* Video Container */
+body.dark-mode .video-container {
+  background-color: #282828;
+  color: #fff;
+}
+
+body.dark-mode .video-container input,
+body.dark-mode .video-container button {
+  background-color: #333;
+  color: #fff;
+  border-color: #444;
+}
+
+body.dark-mode .video-container input:focus,
+body.dark-mode .video-container button:focus {
+  outline-color: #fff;
+}
+
+/* Playlist */
+body.dark-mode .playlist-container {
+  background-color: #282828;
+}
+
+body.dark-mode .playlist-title {
+  color: #fff;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #282828;
+  color: #fff;
+  border-color: #444;
+}
+
+body.dark-mode .list-group-item:hover {
+  background-color: #444;
+}
+
+body.dark-mode .list-group-item span {
+  color: #fff;
+}
+
+/* Images */
+body.dark-mode .img-thumbnail {
+  filter: brightness(0.9);
+}
+
+/* Buttons */
+body.dark-mode .btn {
+  background-color: #333;
+  border-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .btn:hover {
+  background-color: #555;
+}
+
+/* Icons */
+body.dark-mode .icon {
+  color: #fff;
+}
+
+/* Search Bar */
+body.dark-mode .search-bar input {
+  background-color: #333;
+  color: #fff;
+  border-color: #444;
+}
+
+/* Popup */
+body.dark-mode .popup {
+  background-color: #333;
+  color: #fff;
+  border-color: #444;
+}
+
+/* Text */
+body.dark-mode p {
+  color: #fff;
+}
+
+/* Additional Components */
+body.dark-mode .mb-4 {
+  background-color: #333;
+  color: #fff;
+}
